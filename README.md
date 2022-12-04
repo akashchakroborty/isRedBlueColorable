@@ -1,4 +1,4 @@
-# Is Graph reb blue colorable.
+# Is Graph red blue colorable?
 >  The user can enter a graph in a textarea by typing some paths (a word is a node, a dash an edge and a new line or a comma a separation between paths). The application then tells if the graph is red-blue colorable. The condition is two connected nodes never have the same color, and the graph is a connected graph.
 
 ## Installing

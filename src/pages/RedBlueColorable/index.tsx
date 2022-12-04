@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useRef, useState } from 'react';
+import React, { ChangeEvent, useEffect, useState } from 'react';
 import { Graph, GraphType, Vertex } from '../../class';
 import FormComponent from '../../components/form';
 import {
@@ -24,8 +24,6 @@ const RedBlueColorable = () => {
       return {
         ...prevStatus,
         isGraphConnected: isConnected(graphVertexes.size, graphVertexes),
-        // This is not not needed to be done if its not a connected graph.
-        //isRedBlueColorable: isBipartite(graphVertexes.size, graphVertexes),
       };
     });
   };
