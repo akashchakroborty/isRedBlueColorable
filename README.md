@@ -5,6 +5,12 @@
 
 Steps to get a development env running:
 
+- Make a local copy doing:
+
+```
+git clone https://github.com/akashchakroborty/isRedBlueColorable.git
+```
+
 - Run npm install:
 
 ```
